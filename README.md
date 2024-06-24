@@ -1,3 +1,31 @@
+# todo-assignment
+
+---
+
+- 사용 기술스택
+
+Vite, React, TypeScript, react-hook-form, yup, tailwindCSS, eslint, prettier
+
+- node, npm 버전
+
+npm: 10.2.1   
+node: 18.18.0
+
+- 프로젝트 구조
+1. src/components: 리액트 컴포넌트를 관리하는 디렉토리
+2. components/atoms: 아토믹한 단위에 컴포넌트를 관리하는 디렉토리
+3. components/Todo: Todo UI를 구성하는 컴포넌트를 관리하는 디렉토리
+4. src/pages: 페이지 단위에 컴포넌트를 관리하는 디렉토리
+5. src/validations: 유효성 검사 코드를 관리하는 디렉토리
+6. src/validations/yup: yup 패키지를 사용한 유효성 검사를 위한 스키마를 관리하는 디렉토리
+7. src/@types: 재사용하는 타입 별칭 또는 인터페이스를 관리하는 디렉토리
+
+- 실행방법
+1. 개발모드: npm run dev
+2. 프로덕션모드: npm run build 이후, npm run preview
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

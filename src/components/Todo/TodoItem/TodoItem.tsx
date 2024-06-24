@@ -2,7 +2,7 @@ import { MouseEvent } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { todoSchema } from '../../../validations/yup/todo.schemas.ts';
-import { type Todos } from '../Todo.tsx';
+import type { Todos } from '../../../@types/todo/todo.types.ts';
 import TextInput from '../../atoms/Forms/TextInput/TextInput.tsx';
 import Button from '../../atoms/Buttons/Button/Button.tsx';
 

@@ -1,13 +1,8 @@
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import type { Todos } from '../../@types/todo/todo.types.ts';
 import AddTodo from './AddTodo/AddTodo.tsx';
 import TodoList from './TodoList/TodoList.tsx';
-
-export interface Todos {
-  id: string;
-  task: string;
-  isEdit: boolean;
-}
 
 export default function Todo() {
   const [todos, setTodos] = useState<Todos[]>([]);

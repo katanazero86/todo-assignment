@@ -1,4 +1,4 @@
-import { Todos } from '../Todo.tsx';
+import type { Todos } from '../../../@types/todo/todo.types.ts';
 import TodoItem from '../TodoItem/TodoItem.tsx';
 
 interface TodoListProps {

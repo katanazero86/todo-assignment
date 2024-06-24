@@ -24,6 +24,7 @@ node: 18.18.0
 1. 개발모드: npm run dev
 2. 프로덕션모드: npm run build 이후, npm run preview
 
+---
 
 
 # React + TypeScript + Vite
